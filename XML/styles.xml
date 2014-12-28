@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppThemeIndigo" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <!-- The primary branding color for the app. By default, this is the color applied to the
+         action bar background. -->
+        <item name="colorPrimary">@color/md_indigo_500</item>
+        <!-- Dark variant of the primary branding color. By default, this is the color applied to
+         the status bar (via statusBarColor) and navigation bar (via navigationBarColor). -->
+        <item name="colorPrimaryDark">@color/md_indigo_700</item>
+        <!-- Bright complement to the primary branding color. By default, this is the color applied
+         to framework controls (via colorControlActivated). -->
+        <item name="colorAccent">@color/md_pink_A200</item>
+        <!-- The color applied to framework control highlights (ex. ripples, list selectors). -->
+        <item name="colorControlHighlight">@color/md_pink_400</item>
+
+    </style>
+
+    <style name="AppThemeRed" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/md_red_500</item>
+        <item name="colorPrimaryDark">@color/md_red_700</item>
+        <item name="colorAccent">@color/md_orange_A200</item>
+    </style>
+
+    <style name="AppThemeGreen" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/md_green_500</item>
+        <item name="colorPrimaryDark">@color/md_green_700</item>
+        <item name="colorAccent">@color/md_purple_A200</item>
+    </style>
+
+    <style name="AppThemeRandom" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+
+        <!-- The primary branding color for the app. By default, this is the color applied to the
+         action bar background. -->
+        <item name="colorPrimary">@color/md_indigo_500</item>
+        <!-- Dark variant of the primary branding color. By default, this is the color applied to
+         the status bar (via statusBarColor) and navigation bar (via navigationBarColor). -->
+        <item name="colorPrimaryDark">@color/md_indigo_700</item>
+        <!-- Bright complement to the primary branding color. By default, this is the color applied
+         to framework controls (via colorControlActivated). -->
+        <item name="colorAccent">@color/md_pink_A200</item>
+        <!-- The color applied to framework controls in their normal state. -->
+        <item name="colorControlNormal">@color/md_amber_500</item>
+        <!-- The color applied to framework controls in their activated (ex. checked) state. -->
+        <item name="colorControlActivated">@color/md_green_500</item>
+        <!-- The color applied to framework control highlights (ex. ripples, list selectors). -->
+        <item name="colorControlHighlight">@color/md_teal_500</item>
+        <!-- The color applied to framework buttons in their normal state. -->
+        <item name="colorButtonNormal">@color/md_red_500</item>
+        <!-- The color applied to framework switch thumbs in their normal state. -->
+        <item name="colorSwitchThumbNormal">@color/md_light_blue_500</item>
+    </style>
+
+</resources>
