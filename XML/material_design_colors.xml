@@ -634,4 +634,15 @@
     <color name="md_blue_grey_500_25">#40607d8b</color>
     <color name="md_blue_grey_500_50">#80607d8b</color>
     <color name="md_blue_grey_500_75">#c0607d8b</color>
+    <!--Texts-->
+    <array name="tests">
+        <item>@color/text</item>
+        <item>@color/secondary_text_icons</item>
+        <item>@color/disabled_hint_text</item>
+        <item>@color/divider</item>
+    </array>
+    <color name="text">#df000000</color>
+    <color name="secondary_text_icons">#8a000000</color>
+    <color name="disabled_hint_text">#4c000000</color>
+    <color name="divider">#1f000000</color>
 </resources>
