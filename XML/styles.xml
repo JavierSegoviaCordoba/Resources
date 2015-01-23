@@ -52,7 +52,9 @@
         <!-- The color applied to framework buttons in their normal state. -->
         <item name="colorButtonNormal">@color/md_red_500</item>
         <!-- The color applied to framework switch thumbs in their normal state. -->
-        <item name="colorSwitchThumbNormal">@color/md_light_blue_500</item>
+        <item name="colorSwitchThumbNormal">@color/md_black_1000_50</item>
+        <!-- Inactive track color(75% transparency) -->
+        <item name="android:colorForeground">@color/md_black_1000_75</item>
     </style>
 
 </resources>
