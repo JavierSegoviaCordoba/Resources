@@ -1,0 +1,16 @@
+// Setup Scroll View inside onCreate
+        scrollView = (ScrollView) findViewById(R.id.scrollView);
+        ViewTreeObserver vto = scrollView.getViewTreeObserver();
+        vto.addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
+            public void onGlobalLayout() {
+                scrollView.scrollTo(scrollPositionX, scrollPositionY);
+            }
+        });
+
+// Inside a onClick method
+scrollView.setOnTouchListener(new View.OnTouchListener() {
+                    @Override
+                    public boolean onTouch(View v, MotionEvent event) {
+                        return (event.getAction() == MotionEvent.ACTION_MOVE);
+                    }
+                });
