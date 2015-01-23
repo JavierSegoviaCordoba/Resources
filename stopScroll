@@ -1,27 +1,32 @@
 public class MainActivity extends ActionBarActivity {
         SharedPreferences sharedPreferences;
         int theme, scrollPositionX = 0, scrollPositionY = -100;
-// Restore scroll Y position
-        sharedPreferences = getSharedPreferences("POSITIONS", Context.MODE_PRIVATE);
-        scrollPositionY = sharedPreferences.getInt("POSITION", 0);
-// Setup Scroll View inside onCreate
-        scrollView = (ScrollView) findViewById(R.id.scrollView);
-        ViewTreeObserver vto = scrollView.getViewTreeObserver();
-        vto.addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
-            public void onGlobalLayout() {
-                scrollView.scrollTo(scrollPositionX, scrollPositionY);
-            }
-        });
-
-// Inside a onClick method
-scrollView.setOnTouchListener(new View.OnTouchListener() {
+        SharedPreferences.Editor editor;
+        @Override
+        protected void onCreate(Bundle savedInstanceState) {
+                super.onCreate(savedInstanceState);
+                // Restore scroll Y position
+                sharedPreferences = getSharedPreferences("POSITIONS", Context.MODE_PRIVATE);
+                 scrollPositionY = sharedPreferences.getInt("POSITION", 0);
+                
+                // Setup Scroll View inside onCreate
+                scrollView = (ScrollView) findViewById(R.id.scrollView);
+                ViewTreeObserver vto = scrollView.getViewTreeObserver();
+                vto.addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
+                        public void onGlobalLayout() {
+                                scrollView.scrollTo(scrollPositionX, scrollPositionY);
+                        }
+                });
+                // Inside a onClick method
+                scrollView.setOnTouchListener(new View.OnTouchListener() {
                     @Override
                     public boolean onTouch(View v, MotionEvent event) {
                         return (event.getAction() == MotionEvent.ACTION_MOVE);
                     }
                 });
-                
-                
+        }
+}
+
 // Save scroll position
 @Override
 protected void onDestroy() {
