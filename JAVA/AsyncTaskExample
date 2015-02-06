@@ -1,4 +1,4 @@
-public class AsyncTaskFacebookParseJson extends AsyncTask<String, String, String> {
+public class AsyncTaskExample extends AsyncTask<String, String, String> {
 
         @Override
         protected void onPreExecute() {
