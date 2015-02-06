@@ -1,0 +1,14 @@
+public class AsyncTaskFacebookParseJson extends AsyncTask<String, String, String> {
+
+        @Override
+        protected void onPreExecute() {
+        }
+
+        @Override
+        protected String doInBackground(String... url) {
+        }
+
+        @Override
+        protected void onPostExecute(String stringFromDoInBackground) {
+        }
+    }
