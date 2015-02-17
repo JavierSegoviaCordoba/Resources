@@ -676,4 +676,6 @@
     <color name="md_falcon_500_50">#80384e77</color>
     <color name="md_falcon_500_75">#c0384e77</color>
     <color name="md_falcon_A400_25">#40598bae</color>
+    
+    <color name="md_statusbar_translucent">#4000</color>
 </resources>
