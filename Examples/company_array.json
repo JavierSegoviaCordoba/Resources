@@ -1,0 +1,16 @@
+[
+  {
+    "avatar_url": "https://www.google.es/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
+    "web_url": "https://google.com",
+    "name": "Google",
+    "id": 1,
+    "company_name": "Google LLC"
+  },
+  {
+    "avatar_url": "https://www.apple.com/ac/structured-data/images/knowledge_graph_logo.png?201709101434",
+    "web_url": "https://apple.com",
+    "name": "Apple",
+    "id": 2,
+    "company_name": "Apple Inc."
+  }
+]
