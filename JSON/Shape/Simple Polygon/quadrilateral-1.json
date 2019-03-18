@@ -1,0 +1,11 @@
+{
+    "edges": [
+        2,
+        3,
+        2,
+        3
+    ],
+    "base": 3,
+    "heigh": 2,
+    "type": "Rectangle"
+}
